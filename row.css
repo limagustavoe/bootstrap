@@ -1,0 +1,87 @@
+/* Caja Principal */
+.container {
+    background-color: rgb(224, 146, 146);
+    width: 960px;
+    height: 760px;
+    border: 2px solid black;
+}
+/* Bordes redondeados para las todas las cajas */
+.container, .header, .nav, .section, .article, .footer, .aside{
+    border-radius: 10px;
+    color: aliceblue;
+    
+    
+}
+.header {
+    background-color: rgb(14, 222, 222);
+    width: 900px;
+    height: 120px;
+    
+    font-size: 20px;
+    margin-top: 14px;
+    margin-left:18px ;
+}
+.nav {
+    width: 900px;
+    height: 60px;
+    margin-left: 18px;
+    margin-top: 20px;
+    background-color: rgb(15, 63, 63);
+
+}
+.navbar,.head, .footer, .aside, .art-uno, .art-dos {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 20px;
+}
+.section {
+    width: 900px;
+    height: 460px;
+    background-color: rgb(174, 119, 225);
+    border: 1px solid black;
+    margin-left: 18px ;
+    margin-top: 10px;
+}
+.art-uno, .art-dos {
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 102px;
+    height: 220px;
+
+}
+.art-uno {
+    background-color: rgb(99, 136, 223);
+    height: 395px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.art-dos{
+    background-color: rgb(99, 136, 223);
+    margin-right: 10px;
+    height: 395px;
+
+}
+.aside{
+    width: 380px;
+    height:395px ;
+    margin-right: 10px;
+    border: 1px solid black;
+    background-color: rgb(119, 225, 183);
+}
+.footer{
+    background-color: rgb(14, 222, 222);
+    width: 900px;
+    height: 60px;
+    margin-left: 18px;
+    margin-top: 6px;
+}
+
+.h2 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
